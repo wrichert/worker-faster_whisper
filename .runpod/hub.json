@@ -1,0 +1,14 @@
+{
+  "title": "Faster Whisper",
+  "description": "Process audio files using various Whisper models, with options for transcription formatting, language translation and more.",
+  "type": "serverless",
+  "category": "audio",
+  "iconUrl": "https://dummyimage.com/100x100/0066ff/fff&text=FW",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20,
+    "gpuIds": "ADA_24",
+    "gpuCount": 1,
+    "allowedCudaVersions": ["12.7", "12.6", "12.5", "12.4", "12.3"]
+  }
+}
